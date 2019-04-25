@@ -6,3 +6,5 @@ This is another independent anisotropic filter implementation. Original code in 
 This my Git mirror, adapted to Python 3.
 
 ![](fastaniso.png)
+
+The methods called on the image in the code pressupose that you'll use the OpenCV image loading method. Do not try to load the image using e.g. SciKit Image load. 
